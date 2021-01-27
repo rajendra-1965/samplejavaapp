@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
        - name: app
-         image: kaushik0656m21/javaapp:$BUILD_NUMBER
+         image: kaushik0656m21/javaapp:v26
          
         
 ---
