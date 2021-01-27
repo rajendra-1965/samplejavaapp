@@ -22,8 +22,7 @@ spec:
       containers:
        - name: app
          image: kaushik0656m21/javaapp:$BUILD_NUMBER
-         ports:
-         -containerPort: 8080
+         
         
 ---
 kind: Service
