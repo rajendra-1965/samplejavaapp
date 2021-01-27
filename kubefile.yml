@@ -22,6 +22,8 @@ spec:
       containers:
        - name: app
          image: kaushik0656m21/javaapp:$BUILD_NUMBER
+         ports:
+         -containerPort: 8080
         
 ---
 kind: Service
@@ -36,5 +38,4 @@ spec:
     - protocol: TCP
       port: 8080
       targetPort: 30002
-  selector: 
-    app: javaapp
+ 
